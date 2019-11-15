@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <Version>0.0.2</Version>
+    <PackageId>Com.RFranco.Log4Net.JsonLayout</PackageId>
+    <Title>Log4Net.JsonLayout</Title>
+    <Description>Log4Net Json Layout.</Description>
+    <Authors>Ruben Martinez; Javier Solana</Authors>
+    <Copyright>Copyright R.Franco Technologies 2019</Copyright>
+    <PackageTags>Log4Net Json Layout</PackageTags>
+    <PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/rfrancotechnologies/log4net-json-layout</PackageProjectUrl>
+    <PackageIconUrl>http://www.rfranco.com/rfjobs/wp-content/uploads/2018/06/logo_pica_grupo.png</PackageIconUrl>
+    <IncludeSource>false</IncludeSource>
+    <PackageReleaseNotes>
+      Namespace log4net.Layout.
+    </PackageReleaseNotes>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.8"/>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" /> 
+  </ItemGroup>
+
+</Project>

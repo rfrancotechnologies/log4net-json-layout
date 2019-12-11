@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
-    <Version>0.0.3</Version>
+    <Version>0.0.4</Version>
     <PackageId>Com.RFranco.Log4Net.JsonLayout</PackageId>
     <Title>Log4Net.JsonLayout</Title>
     <Description>Log4Net Json Layout.</Description>
@@ -14,7 +14,7 @@
     <PackageIconUrl>http://www.rfranco.com/rfjobs/wp-content/uploads/2018/06/logo_pica_grupo.png</PackageIconUrl>
     <IncludeSource>false</IncludeSource>
     <PackageReleaseNotes>
-      Stripped down json properties written by the layout.
+      WriteLine instead of Write.
     </PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>

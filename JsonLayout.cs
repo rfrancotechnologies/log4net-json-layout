@@ -35,7 +35,7 @@ namespace log4net.Layout
                 }
             }
 
-            writer.Write(JsonConvert.SerializeObject(dic));
+            writer.WriteLine(JsonConvert.SerializeObject(dic));
         }
     }
 }
